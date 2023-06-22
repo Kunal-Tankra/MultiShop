@@ -1,0 +1,29 @@
+
+.itemCount button{
+    font-size: 20px;
+    width: 50px;
+}
+
+.itemCount span{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+
+}
+
+.cartBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.itemPrice{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itemImg{
+    height: 100%;
+}
+
+

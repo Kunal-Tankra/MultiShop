@@ -1,0 +1,25 @@
+.form{
+    /* border: solid 1px black; */
+    margin: 20px auto;
+    width: 50%;
+
+}
+
+.form h1{
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.loginLink{
+  float: right;
+}
