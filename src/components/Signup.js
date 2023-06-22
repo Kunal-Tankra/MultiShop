@@ -20,7 +20,7 @@ const Signup = () => {
         let data = await JSON.parse(localStorage.getItem('users'))  //get
 
         
-        
+
         if (data === null) {
             // console.log("setting data []")
             localStorage.setItem("users", JSON.stringify([]))  //set
