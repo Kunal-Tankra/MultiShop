@@ -1,0 +1,40 @@
+#cartIconBox{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.cartIcon{
+    font-size: 33px;
+    color: white;
+    font-weight: 100;
+}
+
+#cartNumber{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    font-size: 9px;
+    border-radius: 50%;
+    border: solid 1px white;
+    color: white;
+
+    position: absolute;
+    top: 0;
+    left: 89%;
+}
+
+.avatarContainer{
+    display: flex;
+    align-items: center;
+}
+
+.userName{
+    margin-left: 5px;
+}
