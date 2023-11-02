@@ -30,7 +30,7 @@ const Home = () => {
 
     useEffect(() => {
         setAllProducts_reload()
-
+console.log("hello")
         // set cart data on reload
         // setCartData_localStorage()
     }, []);
