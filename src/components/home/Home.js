@@ -24,7 +24,7 @@ const Home = () => {
     const setAllProducts_reload = async () => {
         // fetch all products
         let data = await handleFetch(`${process.env.REACT_APP_API_URL}/api/v1/product/`).catch(err => setErr(err.message))
-        setAllProducts(data)
+        setAllProducts(data.results)
 
     }
 
